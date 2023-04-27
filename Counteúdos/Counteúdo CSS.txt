@@ -1,0 +1,62 @@
+Seletor
+{propriedade:valor;}
+exemplos - 
+h1{color: red;}
+h1{color: red;
+font-size: 16px}
+
+Como incluir CSS
+*INLINE*
+<p style="...">....</P> essa maneira deve ser desencorajada por ser prejudicial a manutenção do site, pois precisaria mudar um a um.
+*INTERNO*
+Dentro da tag Head da minha pagina faço a chamada do css-<style>...</style>
+*EXTERNO*
+<link rel="stylesheet" href="Local do Arquivo.css" >
+
+HTML chamando uma classe do Css
+uso de Classes <p class="minha-classe">...</p>
+
+Declarando uma classe no CSS
+minha-classe{.....}
+
+HTML chamada por ID
+<p id="meu-id">...</p>
+
+Declarando um ID no Css
+#meu-id{....}
+
+DIFERENÇA ENTRE CLASS E ID
+ID Só posso ter uma referência por pagina
+exemplo:
+pagina1 <p id="meu-id">...</p> 
+pagina2 <p id="meu-id">...</p>
+
+errado: 
+pagina1 <p id="meu-id">...</p> 
+pagina1 <p id="meu-id">...</p> 
+
+não posso chamar o mesmo id para tags dentro da mesma pagina.
+
+CLasses posso utilizar quantas vezes for necessário na mesma pagina
+exenplo: 
+
+Pagina1<p class="minha-classe">...</p>
+Pagina1<p class="minha-classe">...</p>
+
+-------------------------------------------------------------------------
+FONTS
+font-family
+font-size-tamanho da fonte
+font-style/ italico ou não
+font-weight negrito/normal
+-------------------------------------------------------------------------
+TEXT
+text-align: posição do texto direita- esquerda- justificado- centralizado
+text-decoration:underline linha no texto
+text-indent:-efine indentação do ínicio de cada paragrafo
+text-transform:minúsculo ou maiúsculo
+-------------------------------------------------------------------------
+CORES RGB HTML
+#00ff00
+Cores exadecimal 
+-------------------------------------------------------------------------
