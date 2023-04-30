@@ -52,8 +52,8 @@
          </body>
         
          IMAGENS, ARQUIVOS EXTERNOS E LINK
-         <A> href - title 
-         <LINK> href - rel
+         <A> href  target - title 
+         <LINK> href target- rel
          <IMG> src- alt
          <SCRIPT> src   
 

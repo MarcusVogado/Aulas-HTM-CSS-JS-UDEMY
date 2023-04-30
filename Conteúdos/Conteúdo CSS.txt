@@ -49,6 +49,7 @@ font-family
 font-size-tamanho da fonte
 font-style/ italico ou não
 font-weight negrito/normal
+font-variant-
 -------------------------------------------------------------------------
 TEXT
 text-align: posição do texto direita- esquerda- justificado- centralizado
@@ -60,3 +61,13 @@ CORES RGB HTML
 #00ff00
 Cores exadecimal 
 -------------------------------------------------------------------------
+Pseudoclasses
+a:hover {
+    background-color: yellow;
+}
+Pseudoclasse	Descrição
+hover-	O usuário está posicionando o cursor sobre um item
+visited-	Um link que já recebeu um clique
+link-	Um link não acessado
+first-child-	O primeiro filho que corresponde ao seletor em uma hierarquia
+last-child-	O último filho que corresponde ao seletor em uma hierarquia
