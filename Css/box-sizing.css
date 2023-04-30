@@ -3,8 +3,13 @@
     background-color: #ccc;
     padding: 25px;
 }
-.borda{
+.bordaTeste{
 padding: 50px;
 border: 10px solid green;
-box-sizing: border-box;
+
+}
+.bordaBox-sizing{
+    padding: 30px;
+    border: 10px solid green;
+    box-sizing: border-box;
 }
