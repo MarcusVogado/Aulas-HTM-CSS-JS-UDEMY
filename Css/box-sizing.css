@@ -1,0 +1,10 @@
+.box-sizing{
+    width:500px;
+    background-color: #ccc;
+    padding: 25px;
+}
+.borda{
+padding: 50px;
+border: 10px solid green;
+box-sizing: border-box;
+}
