@@ -61,7 +61,7 @@ CORES RGB HTML
 #00ff00
 Cores exadecimal 
 -------------------------------------------------------------------------
-Pseudoclasses
+PSEUDO CLASSES
 a:hover {
     background-color: yellow;
 }
