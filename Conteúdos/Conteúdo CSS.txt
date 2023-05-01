@@ -71,3 +71,18 @@ visited-	Um link que já recebeu um clique
 link-	Um link não acessado
 first-child-	O primeiro filho que corresponde ao seletor em uma hierarquia
 last-child-	O último filho que corresponde ao seletor em uma hierarquia
+---------------------------------------------------------------------------
+DISPLAY
+*Inline*
+Não vão criar quebra de linha  Elementos a-strong-b-em-i.
+width e height não funcionam em elementos de linha
+margin em elementos de linha só funciona na horizontal
+*Block*
+Elementos de  bloco p- h1- ul- ol- li- sempre ocuparão todo o espaço da pagina
+ao usar o block em elementos de linha temos a opção de usar width e height ou até mesmo o padding
+
+
+Inline-block
+
+none
+esconder Elementos na tela.

@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+}
+p{
+    width: 50%;
+    background-color: #ccc;    
+}
+h1{
+    border: 2px solid red;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+a{
+   background-color: aquamarine;
+}
