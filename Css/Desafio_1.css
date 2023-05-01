@@ -1,0 +1,36 @@
+body{
+    background-color: #ccc;
+    font-family: sans-serif;
+}
+.titulo{
+color: #0c0eaf;
+background-color: #a2a4f8;
+text-align: center;
+margin: auto;
+width: 80%;
+}
+.subtitulos{    
+    color: #0c0eaf;
+    background-color: #a19a9a;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.bordas{
+    border-bottom:2px solid blue;
+}
+p{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-top: 5px;
+}
+a{
+    color: #0a07d3;
+}
+.aling{
+    width: 80%;
+    text-align: left;
+    margin: auto;
+    margin-top: 5px;  
+}
