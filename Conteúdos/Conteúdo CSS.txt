@@ -86,3 +86,10 @@ Inline-block
 
 none
 esconder Elementos na tela.
+-----------------------------------------------------------------------------
+LIST-STYLE
+Serve para formatar as listas Ol e Ul
+List-style-type
+List-style-position
+List-style-image
+
