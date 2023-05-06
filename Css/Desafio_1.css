@@ -1,6 +1,8 @@
 body{
     background-color: #ccc;
     font-family: sans-serif;
+     
+    
 }
 .titulo{
 color: #0c0eaf;
@@ -14,7 +16,7 @@ width: 80%;
     background-color: #a19a9a;
     width: 80%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 .bordas{
     border-bottom:2px solid blue;
@@ -27,10 +29,37 @@ p{
 }
 a{
     color: #0a07d3;
+    text-decoration: none;
 }
 .aling{
     width: 80%;
+    height: 80px;
     text-align: left;
     margin: auto;
-    margin-top: 5px;  
+    margin-top: 5px; 
+    
+     
+}
+
+.menu{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: end;    
+}
+.menu li{
+    list-style-type: none;    
+    display: inline-block;
+    list-style-position: inside;   
+    padding:0;
+}
+.menu a{
+background-color: #fffbfb;
+padding: 16px;
+display:block;
+}
+.menu a:hover{
+    background-color: gray;
+    color:#fff;
 }
