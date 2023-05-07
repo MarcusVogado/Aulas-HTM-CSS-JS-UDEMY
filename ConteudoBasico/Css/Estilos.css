@@ -1,10 +1,11 @@
-.minha-classe{
-    color:rgb(110, 18, 133);
+.minha-classe {
+    color: rgb(110, 18, 133);
     font-size: 18px;
     font-style: italic;
     text-align: center;
     font-weight: bold;
 }
-.minha-classe:Hover{
+
+.minha-classe:Hover {
     background-color: aqua;
 }

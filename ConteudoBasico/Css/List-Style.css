@@ -1,18 +1,19 @@
-ol li{
+ol li {
     color: green;
     list-style-position: inside;
     list-style-type: lower-latin;
-    
+
 }
 
 
-ul li{
+ul li {
     list-style-type: square;
     color: red;
-    list-style-type: none;/* utlizado para retirar os desenhos ou escrita da lateral*/
+    list-style-type: none;
+    /* utlizado para retirar os desenhos ou escrita da lateral*/
 }
 
-h1{
+h1 {
     text-align: center;
     width: 50%;
     margin: auto;

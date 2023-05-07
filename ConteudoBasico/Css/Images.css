@@ -1,35 +1,38 @@
-
-body{
+body {
     background-color: black;
     font-family: sans-serif;
     width: 700px;
     margin: auto;
     background-image: url(../Images/bg.jpg);
-        background-repeat: no-repeat;
-        background-attachment: fixed;          
-        background-size: cover;
-        background-position: right bottom;
-    
-}
-.img-logo{
-    width:400px
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+
 }
 
-.img-html{
-    float:left
-}
-.img-css{
-    float:right;
+.img-logo {
+    width: 400px
 }
 
-p{
-   color:aliceblue ;
-   line-height:1.5;
-   text-align: justify;
+.img-html {
+    float: left
 }
-h1{
-    color:white
+
+.img-css {
+    float: right;
 }
-h2{
-    color:white
+
+p {
+    color: aliceblue;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+h1 {
+    color: white
+}
+
+h2 {
+    color: white
 }

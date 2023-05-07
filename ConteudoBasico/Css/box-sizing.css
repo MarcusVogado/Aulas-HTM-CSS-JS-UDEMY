@@ -1,14 +1,16 @@
-.box-sizing{
-    width:500px;
+.box-sizing {
+    width: 500px;
     background-color: #ccc;
     padding: 25px;
 }
-.bordaTeste{
-padding: 50px;
-border: 10px solid green;
+
+.bordaTeste {
+    padding: 50px;
+    border: 10px solid green;
 
 }
-.bordaBox-sizing{
+
+.bordaBox-sizing {
     padding: 30px;
     border: 10px solid green;
     box-sizing: border-box;

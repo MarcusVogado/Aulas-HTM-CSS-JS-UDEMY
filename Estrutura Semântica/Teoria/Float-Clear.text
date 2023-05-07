@@ -1,0 +1,13 @@
+Float e Clear
+era utilizado a muito tempo atrás
+e não é utilizado hoje.
+
+Foi substituido por FlexBox e CssGrid por apresentar muitos problemas
+Mas para termos conhecimento
+PROPRIEDADES
+Float:
+right;
+left;
+none-valor padrão;
+
+Float faz com que o item que estamos aplicando o float fique fora da escopa da pagina ele flutua para fora.
