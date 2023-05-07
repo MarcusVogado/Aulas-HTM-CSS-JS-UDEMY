@@ -1,15 +1,21 @@
 Estrutura Semantica de um apagina HTML
+
 Header- seria nosso cabeçalho
+
 Nav- seria uma Aba de navegação do site
-Main/Article- Todo conteúdo principal do site
+
+Main/Article- Todo conteúdo principal do site, essa tag 
+so pode ser usar uma vez é filha da tag "body".
+
 Footer- Roda pé do site
 
 Outras TAGS Semânticas
-*Section- serve para agrupar conjunto
-de informações que estão relacionadas.
+*Section- serve para agrupar conjuntode informações que estão relacionadas.
 fica entre a tag article e a tag div que não possui semântica nenhuma.
+
 *Article- serve para colocar o conteúdo importante da página pode
-ser o conteúdo principal
+ser o conteúdo principal.
+
 *Aside- conteúdo a parte do conteúdo principal da página. aside que
  dizer ao lado/por fora. Ex: um banner de propaganda.
 
