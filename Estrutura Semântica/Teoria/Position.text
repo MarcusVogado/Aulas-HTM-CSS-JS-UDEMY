@@ -1,11 +1,17 @@
 Position
 - static: valor padrão default
-- relative:
-- absolute:
-- fixed:
-- sticky:  
+- relative: Mantem o espaçamento original do conteúdo mesmo alterando de lugar no documento
+- absolute:Passa a integrar toda a página e não só ao container onde está. e não mantem o espaço original de onde estava.
+- fixed:Passa a integrar o browser 
+- sticky:  hibrido do fixed com o relative.
 tirando a static, as propriedades funciona com:
 top:
 bottom:
 left:
 right:
+
+
+Z-INDEX:
+Coloca os elementos em prioridades  e aproxima do usuário
+default: 0
+
