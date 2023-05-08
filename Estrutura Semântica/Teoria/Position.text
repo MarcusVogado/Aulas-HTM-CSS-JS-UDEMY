@@ -1,0 +1,11 @@
+Position
+- static: valor padrão default
+- relative:
+- absolute:
+- fixed:
+- sticky:  
+tirando a static, as propriedades funciona com:
+top:
+bottom:
+left:
+right:

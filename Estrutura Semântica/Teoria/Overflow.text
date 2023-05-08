@@ -1,0 +1,6 @@
+Overflow
+-Para o over flow funcionar precisamos declarar a altura dos nossos container
+-Serve para tratar o conteúdo que excede o elemento
+- hidden mantem o conteúdo dentro da div mas se for muito grande ele ficará escondido
+- scroll adiciona barras de rolagens
+- auto adiciona automaticamente scroll se necessário for pra ambas as direções width e height.
