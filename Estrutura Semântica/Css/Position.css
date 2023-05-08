@@ -1,0 +1,25 @@
+#div1{
+background-color: rgba(255, 0, 0, .5);
+padding:10px;
+width:90%;
+height:100px;
+position:sticky;
+top: 10px;
+}
+#div2{
+background-color: rgba(6, 121, 6, 0.5);
+padding:10px;
+width:80%;
+height:50px;
+position:relative;
+}
+#div3{
+background-color: rgba(58, 8, 151, 0.5);
+padding:10px;
+width:30px;
+height:30px;
+position: absolute;
+bottom:20px;
+right:20px;
+
+}

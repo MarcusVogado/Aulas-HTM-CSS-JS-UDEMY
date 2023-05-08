@@ -1,0 +1,41 @@
+div {
+    border: 4px solid black;
+    padding: 12px;
+    margin-bottom: 12px;
+    background-color: rgba(0, 0, 0, .2);
+    font-size: 18px;
+    font-family: sans-serif;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.div2.group2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    z-index: 2;
+}
+
+.div2.group1 {
+    /* position: absolute; */
+    top: 100px;
+    left: 0;
+    background-color: white;
+    z-index: 0;
+    /*Utilizando o z-index e passando a div para frente mesmo sendo a do meio */
+}
+
+.div3.group1 {
+    position: relative;
+    z-index: 2;
+    background-color: red;
+}
+
+.div4.group1 {
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+    background-color: yellowgreen;
+    z-index: 3;
+}
