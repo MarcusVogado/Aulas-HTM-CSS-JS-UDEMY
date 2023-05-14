@@ -37,6 +37,7 @@ body {
 .flex-container3 {
     justify-content: space-around;
     align-items: center;
+   
 }
 
 .flex-container3 div {
@@ -73,10 +74,27 @@ body {
 
 }
 
-
 .flex-container6 div {
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+
+}
+
+.flex-container7 {
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    height: 600px;
+
+}
+
+.flex-container7 div {
     background-color: yellow;
     width: 50px;
     height: 50px;
 
+}
+.flex-container7 .div2{
+    flex-basis: 100px;
 }
