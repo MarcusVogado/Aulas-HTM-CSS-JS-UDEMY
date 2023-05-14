@@ -1,8 +1,13 @@
+body{
+    margin-bottom: 500px;
+}
+
 .flexbox {
     height: 250px;
     border: 3px solid red;
     display: flex;
     margin-bottom: 16px;
+
 }
 
 .flexbox div {
@@ -10,4 +15,27 @@
     width: 300px;
     margin: 15px;
 
+}
+
+.flex-container1 {
+    /* flex-wrap: nowrap;/* QUEBRA LINHA
+    flex-direction: column;/* EM LINHA OU COLUNA OU ROW REVERSE E COLUN REVER REVERTE A ORDEM DOS ITENS
+    */
+    flex-flow: row wrap;
+    /* PODEMOS SUBSTITUIR O FLEX ROW E FLEX DIRECTION POR FLEX - FLOW*/
+}
+.flex-container2{
+justify-content: center;
+margin: 0;
+}
+.flex-container2 div{
+    width: 30px;
+}
+.flex-container3{
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-container3 div{
+    width: 30px;
+    margin: 0;
 }
