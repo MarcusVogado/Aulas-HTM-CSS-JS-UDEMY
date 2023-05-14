@@ -1,4 +1,4 @@
-body{
+body {
     margin-bottom: 500px;
 }
 
@@ -24,18 +24,43 @@ body{
     flex-flow: row wrap;
     /* PODEMOS SUBSTITUIR O FLEX ROW E FLEX DIRECTION POR FLEX - FLOW*/
 }
-.flex-container2{
-justify-content: center;
-margin: 0;
+
+.flex-container2 {
+    justify-content: center;
+    margin: 0;
 }
-.flex-container2 div{
+
+.flex-container2 div {
     width: 30px;
 }
-.flex-container3{
+
+.flex-container3 {
     justify-content: space-around;
     align-items: center;
 }
-.flex-container3 div{
+
+.flex-container3 div {
     width: 30px;
     margin: 0;
+}
+
+.flex-container4 {
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.flex-container4 div {
+    width: 30px;
+    margin: 0;
+}
+
+.flex-container5 {
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-start;
+    /*flex-wrap: wrap; utilizamos o warp para quebrar linha e ativar o align content*/
+}
+
+.flex-container5 div {
+    width: 100px;
 }
