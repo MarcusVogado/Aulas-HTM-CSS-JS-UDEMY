@@ -121,3 +121,27 @@ body {
 .flex-container8 .div4 {
     flex-grow: 1;
 }
+
+.flex-container9 {
+    flex-shrink: 1;
+}
+
+.flex-container9 .div3 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* PODEMOS RESUMIR EM FLEX: FLEX-GROW/FLEX-SHRINK/FLEX-BASIS EXEMPLO- FLEX:1 3 200PX */
+
+}
+
+.flex-container10 div {
+    background-color: blue;
+}
+
+.flex-container10 .div2 {
+    order: 1;
+    align-self: center;
+}
+.flex-container10 .div3 {
+    order: 1;
+    align-self: flex-end;
+}
