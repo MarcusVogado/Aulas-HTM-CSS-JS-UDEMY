@@ -37,7 +37,7 @@ body {
 .flex-container3 {
     justify-content: space-around;
     align-items: center;
-   
+
 }
 
 .flex-container3 div {
@@ -95,6 +95,29 @@ body {
     height: 50px;
 
 }
-.flex-container7 .div2{
+
+.flex-container7 .div2 {
     flex-basis: 100px;
+
+}
+
+.flex-container8 {
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.flex-container8 div {
+    flex-basis: 50px;
+    background-color: orange;
+    margin: 0;
+
+}
+
+.flex-container8 .div2 {
+    flex-grow: 1;
+}
+
+.flex-container8 .div4 {
+    flex-grow: 1;
 }
