@@ -1,0 +1,70 @@
+html,
+body {
+    height: auto; 
+      
+}
+
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;    
+   
+}
+.main-title {
+    color: #385555;
+    margin: 0;
+}
+.imgPerfil {
+    width: 100px;
+    height: 100px;
+}
+
+.imgButton {
+    width: 20px;
+    height: 20px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    list-style-type: none;
+    width: 90%;
+    max-width: 960px;
+
+}
+.list-item{
+    flex-basis: 280px;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 px 8px rgba(0, 0, 0, .3);
+    background-image: url(../Img/list-contatos-2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.list-item__imagem img{
+    border-radius: 50%;
+    margin-top: 120px;
+  
+
+}
+.list-item__name{
+    margin: 0;
+    font-size: 24px;
+    color: #385555;
+}
+.list-item_action{
+    display: flex;
+    background-color: #e5e5e5;
+    padding: 16px;
+    justify-content: space-evenly;
+}
